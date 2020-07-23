@@ -8,9 +8,9 @@
       <li> A running Kubernetes cluster.  </li>
    </ul>
    
-[Setup Docker](https://docs.docker.com/get-docker/)    
-[Signup for DockerHub](https://hub.docker.com/)      
-[Setup a cluster in GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster)
+[Setup Docker](https://docs.docker.com/get-docker/){:target="_blank"}   
+[Signup for DockerHub](https://hub.docker.com/){:target="_blank"}        
+[Setup a cluster in GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster){:target="_blank"}   
 
 ## Steps:
 
@@ -27,12 +27,12 @@
 #### 5. Create the deployment
         kubectl create deployment demo --image=rounakraj8/demo:latest
         
-   Alternatively, you can create [deployment.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/deployment.yaml) file and achieve the same results using `kubectl apply -f deployment.yaml` command.
+   Alternatively, you can create [deployment.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/deployment.yaml){:target="_blank"} file and achieve the same results using `kubectl apply -f deployment.yaml` command.
         
 #### 6. Create the service
         kubectl expose deployment demo --name=demo --port=80 --target-port=8080 --type=LoadBalancer
         
-   Alternatively, you can create [service.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/service.yaml) file and achieve the same results
+   Alternatively, you can create [service.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/service.yaml){:target="_blank"} file and achieve the same results
         using `kubectl apply -f service.yaml`  command.
       
 #### 7. Scale the deployment
@@ -51,9 +51,9 @@
         kubectl delete deployment demo
         
 ### Presentation
-[PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf)   
-[PPT](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pptx)
+[PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf){:target="_blank"}     
+[PPT](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pptx){:target="_blank"}    
         
-Basic [Kubernetes commands](https://github.com/rounakraj8/kubernetes-101/tree/master/basic-commands/kubernetes)   
-Basic [Docker Commands](https://github.com/rounakraj8/kubernetes-101/blob/master/dockerfile/README.md)
+Basic [Kubernetes commands](https://github.com/rounakraj8/kubernetes-101/tree/master/basic-commands/kubernetes){:target="_blank"}       
+Basic [Docker Commands](https://github.com/rounakraj8/kubernetes-101/blob/master/dockerfile/README.md){:target="_blank"}     
                 
