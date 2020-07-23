@@ -8,7 +8,10 @@ It exposes a REST GET API which has `{userName}` as a PathVariable and it return
       
 
 #### Output
-      `Hello! Rounak`    
+      `Hello! Rounak` 
+      
+### Build the application and create artifact
+      `mvn clean install`
       
       
       
