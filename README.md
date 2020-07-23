@@ -27,7 +27,7 @@
 #### 5. Create the deployment
         kubectl create deployment demo --image=rounakraj8/demo:latest
         
-   Alternatively, you can create <a href="https://github.com/rounakraj8/kubernetes-101/blob/master/config/deployment.yaml" target="_blank">deployment.yaml</a>     [deployment.yaml](){:target="_blank"} file and achieve the same results using `kubectl apply -f deployment.yaml` command.
+   Alternatively, you can create <a href="https://github.com/rounakraj8/kubernetes-101/blob/master/config/deployment.yaml" target="_blank">deployment.yaml</a>      file and achieve the same results using `kubectl apply -f deployment.yaml` command.
         
 #### 6. Create the service
         kubectl expose deployment demo --name=demo --port=80 --target-port=8080 --type=LoadBalancer
