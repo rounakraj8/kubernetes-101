@@ -1,6 +1,6 @@
 ### This is a demo project to Dockerize a simple Java(Spring Boot) application and run it on a Kubernetes Cluster
 
-#### Rrerequisites:
+#### Prerequisites:
    This article assumes that you have: 
    <ul>
                 <li> Docker installed in your local system  </li>
