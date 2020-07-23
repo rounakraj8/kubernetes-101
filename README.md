@@ -2,8 +2,8 @@
 
 #### Prerequites:
    This article assumes that you have: 
-                * Docker installed in your local system
-                * DockerHub account 
+                * Docker installed in your local system  
+                * DockerHub account   
                 * A running Kubernetes cluster.
 
 ## Steps:
