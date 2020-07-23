@@ -1,5 +1,7 @@
 ### This is a demo project to Dockerize a simple Java(Spring Boot) application and run it on a Kubernetes Cluster
 
+**PS:** This article assumes that you have your own DockerHub account and you already have a running Kubernetes cluster.
+
 ## Steps:
 
 #### 1. Write a [simple Java(Spring Boot) application and create its artifact(\*.jar)](/demo)
@@ -32,5 +34,4 @@
         
 #### 10. Delete the created deployment
         kubectl delete deployment demo
-        
-[^bignote] This article assumes that you have your own DockerHub account and you already have a running Kubernetes cluster.        
+                
