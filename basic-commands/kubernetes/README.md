@@ -1,11 +1,11 @@
 
-kubectl config view
+`kubectl config view`
 
 ### Cluster Info
-kubectl cluster-info
+`kubectl cluster-info`
 
 ### Get current context
-kubectl config current-context
+`kubectl config current-context`
 
 ### Creating a deployment with image as **rounakraj8/demo:latest**
 `kubectl create deployment demo --image=rounakraj8/demo:latest`
@@ -28,6 +28,8 @@ kubectl config current-context
 
 ### View Services
 `kubectl get service`
+
+### For more commands, see https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 ### Scale deployment
 `kubectl scale deployment demo --replicas=3`
