@@ -24,10 +24,9 @@
         `kubectl scale deployment demo --replicas=2`      
         
 #### 8. Test the service
-        To test this setup/demo, you will have to hit the hello API.
+        <p>To test this setup/demo, you will have to hit the hello API.
         After creating the service, since we have kept type as LoadBalancer, this service will get an external/public API(This may take couple of minutes).
-        Once you get the IP, you can hit `xxx.xxx.xxx.xxx/hello/someName`.
-        If you get `Hello! SomeName` as response, then you have successfully completed the demo.
+        Once you get the IP, you can hit `xxx.xxx.xxx.xxx/hello/someName`.If you get `Hello! SomeName` as response, then you have successfully completed the demo.</p>
 
 #### 9. Delete the created service
         `kubectl delete svc demo`
