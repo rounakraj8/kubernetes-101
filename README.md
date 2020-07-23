@@ -23,14 +23,13 @@
 #### 5. Create the deployment
         kubectl create deployment demo --image=rounakraj8/demo:latest
         
-   Alternatively, you can create [deployment.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/deployment.yaml) file and achieve the same results.     
-        `kubectl apply -f deployment.yaml`
+   Alternatively, you can create [deployment.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/deployment.yaml) file and achieve the same results using `kubectl apply -f deployment.yaml` command.
         
 #### 6. Create the service
         kubectl expose deployment demo --name=demo --port=80 --target-port=8080 --type=LoadBalancer
         
-   Alternatively, you can create [service.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/service.yaml) file and achieve the same results.
-        `kubectl apply -f service.yaml` 
+   Alternatively, you can create [service.yaml](https://github.com/rounakraj8/kubernetes-101/blob/master/config/service.yaml) file and achieve the same results
+        using `kubectl apply -f service.yaml`  command.
       
 #### 7. Scale the deployment
         kubectl scale deployment demo --replicas=2      
