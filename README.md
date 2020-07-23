@@ -46,13 +46,9 @@
 #### 10. Delete the created deployment
         kubectl delete deployment demo
         
-## Presentation
+### Presentation
 [PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf)
-<details><summary></summary>
-<p>
-![PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf)
-</p>
-</details>
+[PPT](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pptx)
         
 Basic [Kubernetes commands](https://github.com/rounakraj8/kubernetes-101/tree/master/basic-commands/kubernetes)   
 Basic [Docker Commands](https://github.com/rounakraj8/kubernetes-101/blob/master/dockerfile/README.md)
