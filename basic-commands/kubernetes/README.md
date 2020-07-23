@@ -1,4 +1,6 @@
+# Basic Kubernetes Commands
 
+### Displays merged kubeconfig settings or a specified kubeconfig file
 `kubectl config view`
 
 ### Cluster Info
