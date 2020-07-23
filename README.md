@@ -10,9 +10,9 @@
 
 ## Steps:
 
-#### 1. Write a [simple Java(Spring Boot) application and create its artifact(\*.jar)](https://github.com/rounakraj8/kubernetes-101/demo)
+#### 1. Write a [simple Java(Spring Boot) application and create its artifact(\*.jar)](https://github.com/rounakraj8/kubernetes-101/tree/master/demo)
 
-#### 2. Write a [Dockerfile](https://github.com/rounakraj8/kubernetes-101/dockerfile)
+#### 2. Write a [Dockerfile](https://github.com/rounakraj8/kubernetes-101/tree/master/dockerfile)
 
 #### 3. Build the Docker image locally with some tag.
         docker build -t rounakraj8/demo:latest .
