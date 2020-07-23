@@ -1,6 +1,10 @@
 ### This is a demo project to Dockerize a simple Java(Spring Boot) application and run it on a Kubernetes Cluster
 
-**PS:** This article assumes that you have your own DockerHub account and you already have a running Kubernetes cluster.
+#### Prerequites:
+   This article assumes that you have: 
+                * Docker installed in your local system
+                * DockerHub account 
+                * A running Kubernetes cluster.
 
 ## Steps:
 
