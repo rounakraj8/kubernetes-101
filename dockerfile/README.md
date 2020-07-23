@@ -18,3 +18,5 @@ The dockerfile uses `openjdk:8-jre-alpine` as base image. Then it copies the `*.
  
  #### Push the built Docker image to Image registry( DockerHub in this case)
  `docker push rounakraj8/demo:latest`
+ 
+ #### For more commands, see https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
