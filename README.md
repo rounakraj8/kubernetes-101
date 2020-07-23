@@ -8,9 +8,9 @@
       <li> A running Kubernetes cluster.  </li>
    </ul>
    
-[Setup Docker](https://docs.docker.com/get-docker/){:target="_blank"}   
-[Signup for DockerHub](https://hub.docker.com/){:target="_blank"}        
-[Setup a cluster in GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster){:target="_blank"}   
+<a href="https://docs.docker.com/get-docker/" target="_blank">Setup Docker</a>
+<a href="https://hub.docker.com/" target="_blank">Signup for DockerHub</a>
+<a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster" target="_blank">Setup a cluster in GKE</a>
 
 ## Steps:
 
@@ -50,10 +50,12 @@
 #### 10. Delete the created deployment
         kubectl delete deployment demo
         
-### Presentation
-[PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf){:target="_blank"}     
-[PPT](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pptx){:target="_blank"}    
-        
-Basic [Kubernetes commands](https://github.com/rounakraj8/kubernetes-101/tree/master/basic-commands/kubernetes){:target="_blank"}       
-Basic [Docker Commands](https://github.com/rounakraj8/kubernetes-101/blob/master/dockerfile/README.md){:target="_blank"}     
+## Presentation
+<ul>
+<li><a href="https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf" target="_blank">PDF</a></li>
+<li><a href="https://docs.google.com/presentation/d/1xlPygcoA8h20z8pY5CZr5rRbbuDa-I08RINyCxok1DY/edit?usp=sharing" target="_blank">PPT</a> </li>
+  </ul> 
+
+<a href="https://github.com/rounakraj8/kubernetes-101/tree/master/basic-commands/kubernetes" target="_blank">Basic Kubernetes commands</a>
+<a href="https://github.com/rounakraj8/kubernetes-101/blob/master/dockerfile/README.md" target="_blank">Basic Docker commands</a>    
                 
