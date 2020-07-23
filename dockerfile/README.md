@@ -1,4 +1,8 @@
-## Basic Docker Commands
+### Dockerfile
+
+The dockerfile uses `openjdk:8-jre-alpine` as base image. Then it copies the `*.jar` file to image with name as `app.jar`. And then it starts the application`app.jar` on the entrypoint.
+
+### Basic Docker Commands
 
 #### View available Docker images on your machine
  `docker images`
