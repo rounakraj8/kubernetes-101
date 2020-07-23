@@ -1,5 +1,3 @@
-# Kubernetes-101
-
 ### This is a demo project to Dockerize a simple Java(Spring Boot) application and run it on a Kubernetes Cluster
 
 ## Steps:
@@ -34,3 +32,5 @@
         
 #### 10. Delete the created deployment
         kubectl delete deployment demo
+        
+[^bignote] This article assumes that you have your own DockerHub account and you already have a running Kubernetes cluster.        
