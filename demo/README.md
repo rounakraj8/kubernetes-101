@@ -1,4 +1,6 @@
-This is a simple Java(Spring Boot) application to test the demo. 
+## This is a simple Java(Spring Boot) application to test the demo. 
+
+### API Exposed
 
 It exposes a REST GET API which has `{userName}` as a PathVariable and it returns the userName with `Hello!` as prefix.
 
