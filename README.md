@@ -3,9 +3,12 @@
 #### Prerequisites:
    This article assumes that you have: 
    <ul>
-                <li> Docker installed in your local system. Setup -> https://docs.docker.com/get-docker/ </li>
-                <li> A DockerHub account. SignUp -> https://hub.docker.com/ </li>
-                <li> A running Kubernetes cluster. Setup a cluster in GKE https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster </li>
+   <li> Docker installed in your local system. </li>
+            [Setup](https://docs.docker.com/get-docker/)
+   <li> A DockerHub account. </li>
+            [SignUp](https://hub.docker.com/)
+   <li> A running Kubernetes cluster.  </li>
+            [Setup a cluster in GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster)
    </ul>
 
 ## Steps:
