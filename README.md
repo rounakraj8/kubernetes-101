@@ -5,7 +5,7 @@
 ## Steps:
 
 #### 1. Write a simple Java(Spring Boot) application and create its artifact(\*.jar).
-#### 2. Write a [Dockerfile](/dockerfile/Dockerfile)
+#### 2. Write a [Dockerfile](/dockerfile)
 #### 3. Build the Docker image locally with some tag.
 #### 4. Push the Docker image to any container registry(eg. DockerHub, AWS ECR, GCR).
 #### 5. Create the deployment
