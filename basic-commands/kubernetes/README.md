@@ -29,8 +29,6 @@
 ### View Services
 `kubectl get service`
 
-### For more commands, see https://kubernetes.io/docs/reference/kubectl/cheatsheet/
-
 ### Scale deployment
 `kubectl scale deployment demo --replicas=3`
 
@@ -39,3 +37,5 @@
 
 ### Delete Service **demo**
 `kubectl delete svc demo`
+
+### For more commands, see https://kubernetes.io/docs/reference/kubectl/cheatsheet/
