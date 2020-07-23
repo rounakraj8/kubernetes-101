@@ -1,4 +1,4 @@
-### Demo project to Dockerize a Java(Spring Boot) application & run it on a Kubernetes(K8) Cluster
+### Demo project to Dockerize a Java(Spring Boot) application & run it on a Kubernetes(K8) cluster
 
 #### Prerequisites:
    This article assumes that you have: 
