@@ -7,7 +7,10 @@
       <li> A DockerHub account. </li>   
       <li> A running Kubernetes cluster.  </li>
    </ul>
-   [Setup Docker](https://docs.docker.com/get-docker/)      [SignUp for DockerHub](https://hub.docker.com/)      [Setup a cluster in GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster)
+   
+[Setup Docker](https://docs.docker.com/get-docker/)
+[SignUp for DockerHub](https://hub.docker.com/)      
+[Setup a cluster in GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster)
 
 ## Steps:
 
