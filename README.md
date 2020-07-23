@@ -47,6 +47,7 @@
         kubectl delete deployment demo
         
 ## Presentation
+[PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf)
 <details><summary></summary>
 <p>
 ![PDF](https://github.com/rounakraj8/kubernetes-101/blob/master/presentation/Kubernetes%20101.pdf)
